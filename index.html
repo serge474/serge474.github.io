@@ -1,5 +1,24 @@
 ---
 order: 1
 layout: default
-title:  "Home"
+title: "Home"
 ---
+<div class="flex gap-8">
+    <div class="w-96 flex-none border-r-cyan-900 border-r pt-3">
+        <div class="grid grid-cols-2 gap-1 mt-4">
+            <div>
+                <img class="w-32 lg:w-32" src='{{ "/assets/images/avatar.png" | relative_url }}' alt="">
+            </div>
+            <div>
+            </div>
+        </div>
+    </div>
+    <div class="w-64 flex-auto pt-3">
+        <h1 class="text-4xl">Projects</h1>
+        <div class="grid grid-cols-3 gap-4 mt-4">
+            <div class="bg-gray-200 p-4">Column 1</div>
+            <div class="bg-gray-200 p-4">Column 2</div>
+            <div class="bg-gray-200 p-4">Column 3</div>
+        </div>
+    </div>
+</div>
